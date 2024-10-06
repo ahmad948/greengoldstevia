@@ -1,0 +1,77 @@
+@media (max-width: 1200px) {
+
+    /* Section-1 */
+
+    .hero__txt h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* Header */
+
+    .header__nav {
+        display: none;
+    }
+
+    /* Setion-1 */
+
+    #hero__sec {
+        min-height: 77vh;
+    }
+
+    .hero__inner {
+        min-height: 60vh;
+    }
+
+    .hero__txt h1 {
+        font-size: 34px;
+    }
+
+    .hero__txt p {
+        font-size: 14px;
+    }
+
+    /* Section-2 */
+
+    .sec2__img img {
+        width: 90%;
+    }
+
+    .box__txt {
+        width: 100%;
+    }
+
+    .sec2__inner {
+        height: 620px;
+    }
+
+    /* Section-3 */
+    .sec3__content {
+        width: 70%;
+    }
+
+    /* FAQ */
+    .faq__heading h4 {
+        font-size: 36px;
+    }
+
+    /* Section-7 */
+    .sec7__boxes {
+        flex-direction: column;
+    }
+
+    .sec7__box {
+        width: 100%;
+        min-height: 806px;
+    }
+
+    .contact__img img {
+        width: 100%;
+    }
+
+    .sec7__form {
+        width: 100%;
+    }
+}
